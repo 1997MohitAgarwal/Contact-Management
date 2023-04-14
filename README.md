@@ -1,17 +1,7 @@
-## Running React on Repl.it
+## A contact Management app where you can add,view,edit and delete contacts as per yourself.
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+## To open in codesandbox
+Just type 'box' between 'hub' and '.com' in the url and you can view the application along with the code.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
-
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+## to open in VS code
+Open the repository and hit the 'greater than' button on the keyboard.
