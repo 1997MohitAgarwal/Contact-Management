@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  min-height:100vh;
+}
+.flex1{
+  background-color:rebeccapurple;
+  display:flex;
+  color:white;
+  justify-content:space-around;
+  width:50%;
+  height:8vh;
+  margin: 5vh auto;
+  border-radius:15px;
+}
+h3{
+  margin:auto 0;
+}
+.btn1{
+  border:none;
+  background:none;
+  color:white;
+  cursor:pointer;
+}
+.btn1:focus{
+  outline:none;
+}
+.btn1:hover{
+  color:turquoise;
+}
+.contactInput{
+  height:6vh;
+  margin:-1vh 0 2vh 0;
+  border-radius:10px;
+  padding: 0 1vw;
+  border:0.5px solid turquoise;
+}
+.contactInput:focus{
+  outline:none;
+}
+.contactAdd{
+  display:flex;
+  flex-direction:column;
+}
+.item{
+  display:flex;
+  justify-content:space-around;
+  background-color:darkturquoise;
+  color:white;
+  width:32%;
+  margin:2vh auto;
+  border-radius:10px;
+}
+.btn2{
+  background:none;
+  border:none;
+}
+.btn2:hover{
+  color:white;
+}
+.btn2:focus{
+  outline:none;
+}
+.cursor{
+  cursor:pointer;
+}
+.box{
+  margin-top:5vh;
+  width:100%;
+}
+.inner{
+  margin: 0 5% 0 2%;
+}
+.nav-link{
+  color:white;
+}
+.nav-link:hover{
+  color:red;
+}
+@media screen and (max-width:600px){
+  .flex1{
+    width:70%;
+  }
+  .item{
+    width:60%;
+  }
+}
