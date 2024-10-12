@@ -5,6 +5,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 body{
+  background-color: rgb(17, 15, 15);
   min-height:100vh;
 }
 .flex1{

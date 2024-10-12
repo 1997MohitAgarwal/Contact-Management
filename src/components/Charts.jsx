@@ -32,9 +32,9 @@ export default function Charts(){
                 <LineChart data={data}  margin={{ left:90 }}>
                     <CartesianGrid/>
                     <XAxis dataKey="date"
-                      stroke="red"
+                      stroke="navy"
                         interval={'preserveStartEnd'} />
-                    <YAxis dataKey="cases" stroke="red"></YAxis>
+                    <YAxis dataKey="cases" stroke="navy"></YAxis>
                     <Legend />
                     <Tooltip />
                     <Line dataKey="cases"
